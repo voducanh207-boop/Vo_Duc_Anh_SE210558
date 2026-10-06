@@ -1,0 +1,43 @@
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #333;
+    font-size: 17px;        /* tăng cỡ chữ mặc định toàn trang, từ 16px (mặc định trình duyệt) */
+}
+
+h1, h2 {
+    color: #2563eb;
+    margin-top: 30px;
+    font-size: 1.5rem;      /* tiêu đề to rõ hơn, dựa theo font-size gốc của body */
+}
+
+p {
+    line-height: 1.7;       /* tăng nhẹ khoảng cách dòng cho dễ đọc với chữ to hơn */
+    font-size: 1rem;
+}
+
+ul {
+    line-height: 1.9;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
+.avt{
+    height: 400px;
+    width: auto;
+}
+.logo{
+    height: 40px;
+    width: 200px;
+    justify-content: start;
+}   
+.hinhgau{
+    height: 5px;
+    width: 5px;
+     justify-content: end;
+}
